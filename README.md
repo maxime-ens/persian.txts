@@ -20,7 +20,7 @@ Given two projections of a high-dimensional sequentive object with correlations 
 
 ## 1 Cleaning the data
 
-The data available in [1](https://github.com/skaivolas/ft.lines) is contained in vector pdf files with extractable text. Nevertheless, the nontrivial 4-column layout and RTL-LTR toggles produce a randomly ordered text. One solution to that is to manually slice down the pdf files to enforce the order. File `OCR-fragmentation.ipynb` slices columns into line structures.
+The data available in [1](https://github.com/skaivolas/ft.lines) is contained in vector pdf files with extractable text. Nevertheless, the nontrivial 4-column layout and RTL-LTR toggles produce a randomly ordered text. One solution to that is to manually slice down the pdf files to enforce the order. File `OCR-fragmentation.py` slices columns into line structures.
 
 Using `PIL`, we use
 
